@@ -33,5 +33,5 @@ try
         keystroke return
     end tell
 on error
-    display dialog "No vim windows currently open."
+    display dialog "No vim windows currently open." buttons {"OK"} default button 1
 end try
