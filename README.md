@@ -42,7 +42,7 @@ Open a command line and `cd` into the repository you cloned. Run the input handl
 ./input_handler.py
 ```
 
-If everything is in order, you should be good to go. Try opening Vim in a Terminal window and hitting the button. It should automatically activate the window and type the keystroke to quit. Note that the button quits without saving your work. It can be changed by modifying the keystroke in *exit_vim.applescript* and compiling that file to *exit_vim.scpt*.
+If you followed this guide properly your Exit Vim Button should be working. Try opening Vim in a Terminal window and hitting the button. It should automatically activate the window and type the keystroke to quit. Note that the button quits without saving your work. It can be changed by modifying the keystroke in *exit_vim.applescript* and compiling that file to *exit_vim.scpt*.
 
 In order to stop the input handler, simply press <kbd>CTRL</kbd>+<kbd>C</kbd> inside the Terminal window.
 
