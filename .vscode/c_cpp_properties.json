@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/Users/reynira/Library/Arduino15/packages/arduino/hardware/avr/1.6.21/cores/arduino",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/4.9.2/include",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/mega",
+                "/Applications/Arduino.app/Contents/Java/libraries/Servo/src"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "/Users/reynira/Library/Arduino15/packages/arduino/hardware/avr/1.6.21/cores/arduino",
+                    "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include",
+                    "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/4.9.2/include",
+                    "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/mega",
+                    "/Applications/Arduino.app/Contents/Java/libraries/Servo/src"
+                ]
+            },
+            "intelliSenseMode": "clang-x64",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
