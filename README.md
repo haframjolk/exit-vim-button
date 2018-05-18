@@ -47,4 +47,4 @@ If you followed this guide properly your Exit Vim Button should be working. Try 
 In order to stop the input handler, simply press <kbd>CTRL</kbd>+<kbd>C</kbd> inside the Terminal window.
 
 ## License
-This project is distributed under the MIT License. See LICENSE file for more details.
+This project is licensed under the MIT License. See repository LICENSE file for more details.
