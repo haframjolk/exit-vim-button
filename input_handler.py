@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import serial
 import time
+import subprocess
 """
 Exit Vim Button
 by Reynir Aron
@@ -17,7 +18,7 @@ try:
         msg = arduino.readline().decode("utf-8")
         print(msg, end="")
         if msg.rstrip() == "1":
-            print()
+            subprocess.call(["osascript", "exit_vim.scpt"])
 
 except KeyboardInterrupt:
     print("Shutdown requested. Exiting...")
