@@ -1,7 +1,10 @@
 set esc to 53 -- Key code of esc key
+
+-- Get all terminal windows
 tell application "System Events"
     set term_windows to name of windows of (application "Terminal")
 end tell
+
 -- Find vim window
 set i to 1
 repeat with window_name in term_windows
