@@ -1,7 +1,7 @@
 set esc to 53 -- Key code of esc key
 tell application "Terminal"
     activate
-    delay 0.25
+    delay 0.5
     tell application "System Events"
         keystroke (key code esc)
         keystroke ":q!"
