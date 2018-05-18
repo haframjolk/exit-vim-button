@@ -14,7 +14,6 @@ arduino = serial.Serial(serial_port, baud, timeout=5)
 time.sleep(2)
 
 while True:
-    msg = arduino.read(arduino.inWaiting())
-    print(msg)
-
+    msg = arduino.readline()
+    print(msg.decode("utf-8"), end="")
 exit()
