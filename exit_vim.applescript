@@ -19,6 +19,7 @@ try
         -- Make vim window the frontmost window
         tell process "Terminal"
             perform action "AXRaise" of window vim_window
+            set vim_window to missing value -- Remove value of vim_window so it won't persist between runs
             set frontmost to true
         end tell
 
