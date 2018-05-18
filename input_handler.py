@@ -9,6 +9,7 @@ Serial input handler
 """
 serial_port = "/dev/cu.usbmodem1411441"
 baud = 9600
+signal = "1"  # Signal sent by Arduino
 
 try:
     arduino = serial.Serial(serial_port, baud, timeout=5)
@@ -16,8 +17,8 @@ try:
 
     while True:
         msg = arduino.readline().decode("utf-8")
-        print(msg, end="")
-        if msg.rstrip() == "1":
+        if msg.rstrip() == signal:
+            print("Signal received.")
             subprocess.call(["osascript", "exit_vim.scpt"])
 
 except KeyboardInterrupt:
