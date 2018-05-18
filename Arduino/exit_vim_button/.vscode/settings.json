@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "__bit_reference": "cpp",
+        "__tree": "cpp",
+        "initializer_list": "cpp",
+        "iterator": "cpp",
+        "set": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "/dev/cu.usbmodem1411441",
+    "sketch": "exit_vim_button.ino",
+    "output": "../build"
+}
