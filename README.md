@@ -1,5 +1,5 @@
 ## Summary
-You know the saying: Once you start using Vim, it's hard to quit. Well, that's exactly what this project aims to address. It's a button whose sole purpose is to exit Vim running in the native macOS Terminal app.
+You know the saying: Once you start using Vim, it's hard to quit. Well, that's exactly what this project aims to address. It's a button whose sole purpose is to exit Vim running in the native macOS Terminal app. This project does not require your Arduino to support keyboard commands.
 
 ## Requirements
 * Arduino board (I used an Arduino Uno R3)
