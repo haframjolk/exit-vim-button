@@ -19,8 +19,8 @@ The Exit Vim Button's input handler requires Python 3 and the pySerial module.
 If you have Homebrew, install them with the following commands:
 
 ```bash
-$ brew install python
-$ pip install pyserial
+brew install python
+pip install pyserial
 ```
 
 In order to upload the Arduino sketch to your board you need the Arduino IDE.
@@ -28,7 +28,7 @@ In order to upload the Arduino sketch to your board you need the Arduino IDE.
 It can be installed with the following command:
 
 ```bash
-$ brew cask install arduino
+brew cask install arduino
 ```
 
 ### Setup
@@ -36,7 +36,7 @@ $ brew cask install arduino
 Clone the repository to your computer with the following command:
 
 ```bash
-$ git clone https://github.com/reyniraron/exit-vim-button.git
+git clone https://github.com/reyniraron/exit-vim-button.git
 ```
 
 Connect your Arduino to your Mac and start up the Arduino IDE. You may have to configure your board type and serial port. Open the *exit_vim_button.ino* sketch inside the *Arduino/exit_vim_button* directory. Change the **BUTTON** and **ACTIVE** constants to match your setup. **BUTTON** is the number of the pin your button is attached to, and **ACTIVE** is either *HIGH* or *LOW* depending on how your button is wired. After you've done this, upload the sketch to your board.
@@ -52,7 +52,7 @@ In order for the Exit Vim Button to work, you need to grant your Terminal applic
 Open a command line and `cd` into the repository you cloned. Run the input handler by typing the following:
 
 ```bash
-$ ./input_handler.py
+./input_handler.py
 ```
 
 If you followed this guide properly your Exit Vim Button should be working. Try opening Vim in a Terminal window and hitting the button. It should automatically activate the window and type the keystroke to quit. Note that the button quits without saving your work. It can be changed by modifying the keystroke in *exit_vim.applescript* and compiling that file to *exit_vim.scpt*.
