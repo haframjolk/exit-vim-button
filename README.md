@@ -1,4 +1,4 @@
-# Exit Vim Button
+# Exit Vim Button by Reynir Aron
 
 ## Summary
 
