@@ -45,7 +45,7 @@ Open *input_handler.py* in your favorite text editor and change the **serial_por
 
 ### Granting assistive access
 
-In order for the Exit Vim Button to work, you need to grant your Terminal application access to control your computer. Open *System Preferences*, click on the *Security & Privacy* pane and select the *Privacy* tab. Select *Accessibility* in the left sidebar and click the padlock on the bottom if it is locked. Authenticate with your username and password. Now, click the plus (+) icon and navigate to */Applications/Utilities/* and select Terminal. Hit *Open*. Now you should be good to go.
+In order for the Exit Vim Button to work, you need to grant the Terminal application access to control your computer. Open *System Preferences*, click on the *Security & Privacy* pane and select the *Privacy* tab. Select *Accessibility* in the left sidebar and click the padlock on the bottom if it is locked. Authenticate with your username and password. Now, click the plus (+) icon and navigate to */Applications/Utilities/* and select Terminal. Hit *Open*. Now you should be good to go.
 
 ## Usage
 
