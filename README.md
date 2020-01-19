@@ -1,4 +1,4 @@
-# Exit Vim Button by Reynir Aron
+# Exit Vim Button by RAM
 
 ## Summary
 
@@ -36,7 +36,7 @@ brew cask install arduino
 Clone the repository to your computer with the following command:
 
 ```bash
-git clone https://github.com/reyniraron/exit-vim-button.git
+git clone https://github.com/haframjolk/exit-vim-button.git
 ```
 
 Connect your Arduino to your Mac and start up the Arduino IDE. You may have to configure your board type and serial port. Open the *exit_vim_button.ino* sketch inside the *Arduino/exit_vim_button* directory. Change the **BUTTON** and **ACTIVE** constants to match your setup. **BUTTON** is the number of the pin your button is attached to, and **ACTIVE** is either *HIGH* or *LOW* depending on how your button is wired. After you've done this, upload the sketch to your board.
